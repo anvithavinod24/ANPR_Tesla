@@ -98,13 +98,12 @@ for img_name in os.listdir(input_dir):
     plt.figure()
     plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 
-    """
     plt.figure()
     plt.imshow(cv2.cvtColor(license_plate, cv2.COLOR_BGR2RGB))
 
     plt.figure()
     plt.imshow(cv2.cvtColor(license_plate_gray, cv2.COLOR_BGR2RGB))
-    """
+
     plt.figure()
     plt.imshow(cv2.cvtColor(license_plate_thresh, cv2.COLOR_BGR2RGB))
 
